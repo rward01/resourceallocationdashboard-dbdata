@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Visual Studio workspace files
+.vs/
+
+# Local settings (contains secrets!)
+local.settings.json
+api/local.settings.json
+
+# Node / build
+node_modules/
+build/
+dist/
+
+# env / logs
+.env
+npm-debug.log
+yarn-error.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+# Environment variables
+.env
+.env.local
