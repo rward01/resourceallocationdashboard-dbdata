@@ -24,4 +24,7 @@ export const MILESTONE_TYPES = [
      'Go-Live'
 ];
 
-export const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:7071/api';
+// API Base URL for local development
+//export const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:7071/api';
+// API Base URL for AZURE deployment
+export const API_BASE_URL = '/api';
